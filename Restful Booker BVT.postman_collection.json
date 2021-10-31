@@ -1126,9 +1126,6 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Ping is successful\", function () {",
-							"    pm.response.to.be.success;",
-							"});",
 							""
 						],
 						"type": "text/javascript"
