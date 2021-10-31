@@ -25,7 +25,6 @@
 									"    pm.expect(jsonData).to.not.have.lengthOf(0);",
 									"});",
 									"",
-									"postman.setNextRequest(\"Ping\");",
 									""
 								],
 								"type": "text/javascript"
@@ -1132,8 +1131,7 @@
 							"});",
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.response.to.have.status(200);",
-							"});",
-							"postman.setNextRequest(null);"
+							"});"
 						],
 						"type": "text/javascript"
 					}
